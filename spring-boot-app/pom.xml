@@ -7,6 +7,7 @@
     <groupId>com.abhishek</groupId>
     <artifactId>spring-boot-demo</artifactId>
     <version>1.0</version>
+    <packaging>war</packaging>
 
     <name>spring-boot-demo</name>
     <url></url>
@@ -52,7 +53,6 @@
     <build>
 
         <finalName>${project.artifactId}-${project.version}</finalName>
-        <packaging>war</packaging>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
