@@ -52,7 +52,7 @@
     <build>
 
         <finalName>${project.artifactId}-${project.version}</finalName>
-
+        <packaging>war</packaging>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
