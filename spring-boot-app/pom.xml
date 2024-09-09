@@ -51,7 +51,7 @@
 
     <build>
 
-        <finalName>spring-boot-web-1</finalName>
+        <finalName>${project.artifactId}-${project.version}-${maven.build.timestamp}</finalName>
 
         <plugins>
             <plugin>
